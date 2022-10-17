@@ -1,5 +1,8 @@
 import React from "react";
 
+const sortAlphabetically = (arr) => 
+  arr.sort((a, b) => a.node.frontmatter.name.localeCompare(b.node.frontmatter.name));
+
 const Table = ({ players, filterByName }) => {
   if (!players) {
     return null;
@@ -19,9 +22,11 @@ const Table = ({ players, filterByName }) => {
     return null;
   });
 
+  const sortedData = sortAlphabetically(filteredData);
+
   return (
     <>
-      {filteredData.length ? (
+      {sortedData.length ? (
         <>
           {nameFilter ? (
             <p className='warning-text'><small> Found {players.length} out of {totalPlayers}</small></p>
@@ -40,7 +45,7 @@ const Table = ({ players, filterByName }) => {
             </thead>
 
             <tbody>
-              {filteredData.map((player) => (
+              {sortedData.map((player) => (
                 <tr key={player.node.frontmatter.name}>
                   <td>{player.node.frontmatter.name}</td>
 
