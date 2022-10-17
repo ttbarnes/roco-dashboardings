@@ -35,7 +35,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "player"}
       - {label: "Name", name: "name", widget: "string", required: true}
-      - {label: "Comments", name: "comments", widget: "string", required: false}
+      - {label: "Comments", name: "comments", widget: "string", required: false, default: ""}
       - {label: "AFK", name: "isAFK", widget: "boolean", required: false, default: false}
       - {label: "Runs in and gets killed", name: "runsInGetsKilled", widget: "boolean", required: false, default: false}
       - {label: "Toxic", name: "isToxic", widget: "boolean", required: false, default: false}
