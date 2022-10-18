@@ -29,7 +29,7 @@ const Table = ({ players, filterByName }) => {
       {sortedData.length ? (
         <>
           {nameFilter ? (
-            <p className='warning-text'><small> Found {players.length} out of {totalPlayers}</small></p>
+            <p className='warning-text'><small> Found {sortedData.length} out of {totalPlayers}</small></p>
           ) : (
             <p><small>Showing {totalPlayers} players</small></p>
           )}
