@@ -8,11 +8,13 @@ const Table = ({ players, filterByName }) => {
     return null;
   }
 
-  const totalPlayers = players.length;
+  const freshPlayers = [ ...players ];
+
+  const totalPlayers = freshPlayers.length;
 
   const nameFilter = filterByName.toLowerCase();
 
-  const filteredData = players.filter((p) => {
+  const filteredData = freshPlayers.filter((p) => {
     const player = p.node.frontmatter;
 
     if (player.name.toLowerCase().includes(nameFilter)) {
