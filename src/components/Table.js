@@ -43,7 +43,7 @@ const PlayersTable = ({ players, filterByName }) => {
                 <Th>Name</Th>
                 <Th>Comments</Th>
                 <Th>AFK</Th>
-                <Th>Runs in gets killed</Th>
+                <Th>Run in die</Th>
                 <Th>Toxic</Th>
               </Tr>
             </Thead>
