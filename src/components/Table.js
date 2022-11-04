@@ -1,9 +1,11 @@
 import React from "react";
+import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
 const sortAlphabetically = (arr) => 
   arr.sort((a, b) => a.node.frontmatter.name.localeCompare(b.node.frontmatter.name));
 
-const Table = ({ players, filterByName }) => {
+const PlayersTable = ({ players, filterByName }) => {
   if (!players) {
     return null;
   }
@@ -35,33 +37,33 @@ const Table = ({ players, filterByName }) => {
           ) : (
             <p><small>Showing {totalPlayers} players</small></p>
           )}
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Comments</th>
-                <th>AFK</th>
-                <th>Runs in gets killed</th>
-                <th>Toxic</th>
-              </tr>
-            </thead>
+          <Table>
+            <Thead>
+              <Tr>
+                <Th>Name</Th>
+                <Th>Comments</Th>
+                <Th>AFK</Th>
+                <Th>Runs in gets killed</Th>
+                <Th>Toxic</Th>
+              </Tr>
+            </Thead>
 
-            <tbody>
+            <Tbody>
               {sortedData.map((player) => (
-                <tr key={player.node.frontmatter.name}>
-                  <td>{player.node.frontmatter.name}</td>
+                <Tr key={player.node.frontmatter.name}>
+                  <Td><strong>{player.node.frontmatter.name}</strong></Td>
 
-                  <td>{player.node.frontmatter.comments ? player.node.frontmatter.comments : '-'}</td>
+                  <Td>{player.node.frontmatter.comments ? player.node.frontmatter.comments : '-'}</Td>
 
-                  <td>{player.node.frontmatter.isAFK ? '✅ Yes' : '-'}</td>
+                  <Td>{player.node.frontmatter.isAFK ? '✅ Yes' : '-'}</Td>
 
-                  <td>{player.node.frontmatter.runsInGetsKilled ? '✅ Yes' : '-'}</td>
+                  <Td>{player.node.frontmatter.runsInGetsKilled ? '✅ Yes' : '-'}</Td>
 
-                  <td>{player.node.frontmatter.isToxic ? '✅ Yes' : '-'}</td>
-                </tr>
+                  <Td>{player.node.frontmatter.isToxic ? '✅ Yes' : '-'}</Td>
+                </Tr>
               ))}
-            </tbody>
-          </table>
+            </Tbody>
+          </Table>
         </>
       ): ( 
         <p><small>No players found.</small></p>
@@ -70,4 +72,4 @@ const Table = ({ players, filterByName }) => {
   )
 }
 
-export default Table;
+export default PlayersTable;
