@@ -1,7 +1,8 @@
 ---
 templateKey: player
 name: ExCat-
-comments: Quit after 1-1
+comments: Quit after 1-1. Plays with ebic44. Awful teamwork. Also both toxic and
+  then turn mic off.
 isAFK: false
 runsInGetsKilled: false
 isToxic: false
