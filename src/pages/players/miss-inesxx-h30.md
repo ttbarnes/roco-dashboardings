@@ -1,7 +1,7 @@
 ---
 templateKey: player
 name: Miss-Inesxx-H30
-comments: Noob, no team play
+comments: Noob, no team play. Plays phantom on high castle, gets 0 downs 200 damage
 isAFK: false
 runsInGetsKilled: true
 isToxic: false
