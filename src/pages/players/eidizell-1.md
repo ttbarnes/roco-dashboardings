@@ -1,7 +1,8 @@
 ---
 templateKey: player
 name: eIDiZell
-comments: Most annoying teammate ever. Constant quip spam
+comments: Entered in here 3 times. Most annoying teammate ever. Constant quip
+  spam. Also Brain dead
 isAFK: false
 runsInGetsKilled: false
 isToxic: false

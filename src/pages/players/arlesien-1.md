@@ -1,7 +1,7 @@
 ---
 templateKey: player
 name: arlesien
-comments: 400 damage 0 downs in 10 rounds
+comments: Entered in here twice. Noob. 400 damage 0 downs in 10 rounds
 isAFK: false
 runsInGetsKilled: false
 isToxic: false

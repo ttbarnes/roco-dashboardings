@@ -1,7 +1,7 @@
 ---
 templateKey: player
 name: picapau_444
-comments: AFK at 1-1
+comments: Has been entered in here twice. AFK at 1-1. 500 damage in 7-6 game
 isAFK: false
 runsInGetsKilled: false
 isToxic: false

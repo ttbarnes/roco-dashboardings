@@ -1,7 +1,8 @@
 ---
 templateKey: player
 name: vNaytzee
-comments: ""
+comments: Entered in here twice. Flank and die every round. Quit the game at
+  2-4. Duo's with vNaytzee.
 isAFK: false
 runsInGetsKilled: true
 isToxic: false
