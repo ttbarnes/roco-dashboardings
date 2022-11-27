@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Table from "./Table";
 
+const sortAlphabetically = (arr) =>
+  arr.sort((a, b) => a.node.frontmatter.name.localeCompare(b.node.frontmatter.name));
+
 const SearchBox = ({ handleOnChange }) => {
   return (
     <>
@@ -10,7 +13,19 @@ const SearchBox = ({ handleOnChange }) => {
 };
 
 const DashboardContent = ({ players }) => {
-  const [search, setSearch] = useState('');
+  const [searchString, setSearch] = useState('');
+
+  const filteredData = players.filter((p) => {
+    const player = p.node.frontmatter;
+
+    if (player.name.toLowerCase().includes(searchString.toLocaleLowerCase())) {
+      return player;
+    }
+
+    return null;
+  });
+
+  const sortedData = sortAlphabetically(filteredData);
 
   return (
     <>
@@ -21,8 +36,8 @@ const DashboardContent = ({ players }) => {
       <SearchBox handleOnChange={setSearch} />
 
       <Table
-        players={players}
-        filterByName={search}
+        players={sortedData}
+        nameFilter={searchString}
       />
     </>
   );
