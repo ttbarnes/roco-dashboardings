@@ -14,7 +14,7 @@ const PlayersTable = ({ players, searchString }) => {
       {players.length ? (
         <>
           {searchString ? (
-            <p className='warning-text'><small> Found {players.length} out of {totalPlayers}</small></p>
+            <p className='warning-text'>⚠️ <small> Found {players.length} out of {totalPlayers}</small></p>
           ) : (
             <p><small>Showing {totalPlayers} players</small></p>
           )}
