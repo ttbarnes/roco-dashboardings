@@ -1,7 +1,7 @@
 ---
 templateKey: player
 name: broken
-comments: Quit at 0-0
+comments: Quit at 0-0. Another game left after 1 round
 isAFK: true
 runsInGetsKilled: false
 isToxic: false
