@@ -1,7 +1,7 @@
 ---
 templateKey: player
 name: MaastraAutra
-comments: ""
+comments: Quits mid game, quit several time when winning e.g 4-3
 isAFK: true
 runsInGetsKilled: false
 isToxic: false
