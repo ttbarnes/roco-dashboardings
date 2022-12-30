@@ -1,9 +1,9 @@
 ---
 templateKey: player
-name: 1st [FR]
-comments: Quit when winning 3-1
+name: Fane
+comments: Brain dead
 isAFK: false
 runsInGetsKilled: false
 isToxic: false
-date: 2022-12-04T11:46:35.705Z
+date: 2022-12-30T21:07:29.209Z
 ---

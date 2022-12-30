@@ -1,7 +1,7 @@
 ---
 templateKey: player
 name: zombshooter66
-comments: Very hit and miss usually not great
+comments: Very hit and miss usually not great. Goes AFK if not winning.
 isAFK: false
 runsInGetsKilled: false
 isToxic: false
