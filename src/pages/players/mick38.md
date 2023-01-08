@@ -1,7 +1,8 @@
 ---
 templateKey: player
 name: Mick38
-comments: Awful. 600 damage in 2 rounds of strikeout
+comments: Awful. Entered twice. 600 damage in 2 rounds of strikeout. Worst saint
+  ever - long range melees and max gun, 1 revive
 isAFK: false
 runsInGetsKilled: true
 isToxic: false

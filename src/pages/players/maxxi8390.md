@@ -1,9 +1,9 @@
 ---
 templateKey: player
-name: Soafex
-comments: Awful. Entered twice.
+name: Maxxi8390
+comments: 70 damage in 5 rounds
 isAFK: false
 runsInGetsKilled: false
 isToxic: false
-date: 2022-12-07T17:56:01.768Z
+date: 2023-01-08T19:41:28.223Z
 ---

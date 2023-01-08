@@ -1,7 +1,7 @@
 ---
 templateKey: player
 name: ShanJN
-comments: Awful
+comments: Awful. Entered twice. 200 damage 0 downs in 8 rounds
 isAFK: false
 runsInGetsKilled: false
 isToxic: false

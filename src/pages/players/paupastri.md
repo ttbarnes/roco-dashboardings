@@ -1,9 +1,9 @@
 ---
 templateKey: player
-name: Soafex
-comments: Awful
+name: Paupastri
+comments: 190 damage in 5 rounds
 isAFK: false
 runsInGetsKilled: false
 isToxic: false
-date: 2022-12-10T20:20:21.305Z
+date: 2023-01-08T19:41:12.452Z
 ---
