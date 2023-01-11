@@ -1,9 +1,9 @@
 ---
 templateKey: player
-name: Not-NoRuWd
-comments: Noob
+name: Oebus_
+comments: Awful
 isAFK: false
 runsInGetsKilled: false
 isToxic: false
-date: 2022-11-03T19:07:46.427Z
+date: 2023-01-11T20:45:52.132Z
 ---
